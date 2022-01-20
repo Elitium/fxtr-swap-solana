@@ -70,10 +70,10 @@ export const ExchangeView = (props: {}) => {
             <Popover
               placement="bottomRight"
               title="Wallet public key"
-              trigger="clickr"
+              trigger="click"
             >
               <Button type="text">Disconnect</Button>
-            ></Popover>
+            </Popover>
           )}
         </div>
         {
