@@ -74,7 +74,7 @@ export const ExchangeView = (props: {}) => {
             >
               <Button 
                 type="text"
-                onClick= wallet.disconnect
+                onClick={wallet.disconnect}
                 style={{ color: "#2abdd2" }}
               >
                 
