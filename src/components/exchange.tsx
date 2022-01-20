@@ -69,10 +69,17 @@ export const ExchangeView = (props: {}) => {
           {connected &&  (
             <Popover
               placement="bottomRight"
-              title="Wallet public key"
-              trigger="click"
+              title="Disconnect Your Wallet"
+              trigger="hover"
             >
-              <Button type="text">Disconnect</Button>
+              <Button 
+                type="text"
+                onClick= wallet.disconnect
+                style={{ color: "#2abdd2" }}
+              >
+                
+                Disconnect
+              </Button>
             </Popover>
           )}
         </div>
